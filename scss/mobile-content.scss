@@ -1,0 +1,123 @@
+@media screen and (min-width: 479px){
+  .hero-containe {
+    margin-inline: auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x.jpg) ;
+
+  }
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    text-align: center;
+
+  }
+  .hero-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .card-set-our-services-icon{
+    display: none;
+  }
+  .framese-icon-icon{
+    width: 264px;
+  }
+  .services{
+    padding-top: 96px;
+  }
+  .subtitle-comands {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+  }
+  .subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .doing{
+    display: none;
+  }
+    .main-text{
+      font-size: 36px;
+      line-height: 40px;
+    }
+  .commands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 72px;
+  }
+    .customers-list{
+      margin-bottom: 72px;
+      display: flex;
+      flex-wrap:wrap ;
+      box-shadow: none;
+    }
+
+  .customers-list-item{
+    margin-bottom: 72px;
+    width: 190px;
+    gap: 16px;
+  }
+  .card-set-our-services>.card-item {
+    flex-basis: unset;
+  }
+
+  .customers .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .socials-media {
+    margin-bottom: 24px;
+    margin-top: 72px;
+  }
+.logo-web  {
+  position: absolute;
+  margin-left: 70px;
+  /*display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px*/
+}
+  .coment{
+    padding-top: 16px;
+  }
+.socials-media {
+  display: flex;
+  flex-direction: column;
+  margin-right: 166px;
+}
+  .socials-list{
+    margin-right: 110px;
+  }
+  .modal-form-input-footer{
+    display: flex;
+    margin-bottom: 24px;
+    width: 398px;
+    height: 40px;
+  }
+  .modal-form-footer{
+    text-align: center;
+    display: block;
+  }
+  .modal-form-submit-footer {
+    position: relative;
+  }
+  .modal-footer {
+    margin-left: 0;
+  }
+}

@@ -1,6 +1,6 @@
 /* ===== HEADER ===== */
 
-/*.heaber {
+.heaber {
   box-sizing: border-box;
   width: 1284px;
   height: 72px;
@@ -17,6 +17,13 @@ main {
   flex: 1 1 auto;
 }
 .container {
+  min-width: 320px;
+  max-width: 480px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
@@ -94,9 +101,9 @@ main {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--color-navy);
-}                                        */
+}
 /*---Contakt ---*/
-/*.contact-phone-number:active:hover::after,
+.contact-phone-number:active:hover::after,
 .contact-emil:active:hover::after,
 .contact-emil:active::after {
   width: 100%;
@@ -138,7 +145,7 @@ main {
 .contact-emil:hover,
 .contact-emil:focus {
   color: var(--color-navy);
-}                                          */
+}
 
          /*============ container modile =======*/
 //0px-1199px
@@ -148,6 +155,12 @@ main {
   }
   .contact-emil{
     display: none;
+  }
+  .mobile-menu-open{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
   }
 }
 //0px-767px
@@ -165,12 +178,6 @@ main {
   align-items: center;
   justify-content: space-between;
 }
-.mobile-menu-open{
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  line-height: 0;
-}
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -186,6 +193,11 @@ main {
 @media screen and (min-width: 768px){
   .container{
     width: 720px;
+  }
+}
+@media screen and (min-width: 768px){
+  .mobile-menu-open{
+    display: none;
   }
 }
 

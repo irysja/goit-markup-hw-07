@@ -7,7 +7,7 @@
 .hero-containe {
   max-width: 1440px;
   margin-inline: auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg) ;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg),url("../images/Dark-bg@2x.jpg") ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -63,11 +63,12 @@
   gap: 23px;
 }
 .framese-icon-icon{
-  padding-top: 28px;
+  /*padding-top: 28px;*/
   display: flex;
   justify-content: center;
   width: 264px;
   height: 112px;
+  align-items: center;
   background: #F4F4FD;
   border-radius:4px ;
   margin-bottom:8px;

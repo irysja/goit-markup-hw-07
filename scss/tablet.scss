@@ -1,0 +1,113 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo-web {
+    position: relative;
+    margin-left: 0;
+  }
+  .main-navigation{
+    display: flex;
+    align-items: center;
+  }
+  .page-header-container {
+    display: flex;
+    justify-content: center;
+  }
+  .page-header-container.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .contact-phone-number,
+  .contact-emil{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #434455;
+  }
+  .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+  .card-set-our-services > .card-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .card-set-our-services{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .subtitle-comands{
+    display: flex;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+  }
+  .framese-icon-icon,
+  .doing{
+    display: none;
+  }
+  .commands-card{
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .commands {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .customers-list-item:not(:last-child) {
+    margin-right: 0;
+  }
+  .customers-list-item {
+    flex-basis: calc((100% - 160px) / 3);
+  }
+  .customers-list {
+    margin-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: none;
+    justify-content: center;
+    gap: 72px 24px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    gap: 72px 24px;
+    justify-content: center;
+  }
+  .socials-media {
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .footer-second {
+    margin-left: 0;
+  }
+  .social-list {
+    margin-right: 0 ;
+  }
+  .coment {
+    padding-top: 0;
+  }
+  .modal-form-input-footer {
+    width: 264px;
+  }
+  .input-wrapper {
+    display: flex;
+    margin-left: 43px;
+  }
+  .subscribe {
+    margin-left: 43px;
+    flex-direction: unset;
+  }
+  .socials-media.socials-footer-media {
+    flex-direction: unset;
+  }
+  .modal-form-submit-footer {
+    position: relative;
+  }
+}

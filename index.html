@@ -46,7 +46,7 @@
         </nav>
         <button type="button" class="mobile-menu-open menu-toggle js-open-menu"
                 aria-expanded="false"
-                aria-controls="mobile-menu"
+                aria-controls="mobile-menu" id="menu-open"
         >
           <svg class="mobile-menu-open_icon"  width="40" height="40">
             <use href="images/sprite.svg#icon-menu"></use>
@@ -55,7 +55,7 @@
       </div>
 
       <!-- Contakt -->
-        <ul class="list page-header-container">
+        <ul class="list page-header-container contacts">
           <li>
             <a class="contact-phone-number link" href="tel:+110001111111"
               >+11(000)111+11+11</a>
@@ -507,8 +507,9 @@
         </div>
         <div class="modal-footer">
           <form class="modal-form-footer">
-            <h4 class=" socials-media socials-footer-media ">Subscribe</h4>
-          <label class="modal-form-input-wrapper-footer">
+            <h4 class=" socials-media socials-footer-media subscribe">Subscribe</h4>
+          <div class="input-wrapper">
+            <label class="modal-form-input-wrapper-footer">
           <input
                   type="email"
                   name="user_email"
@@ -521,6 +522,7 @@
                 <use href="images/sprite.svg#icon-telegram"></use>
               </svg>
             </button>
+            </div>
           </form>
         </div>
       </div>
@@ -592,6 +594,7 @@
           <a class="modal-form-check-desco" href="">Privacy Policy</a>
         </label>
         <button type="submit" class="modal-form-submit">Send</button>
+
       </form>
     </div>
   </div>

@@ -56,6 +56,13 @@ ol {
   background-color: var(--primary-color-white);
   padding: 72px 24px 24px;
 }
+@media screen and (min-width: 320px) and (max-width: 479px){
+  .modal {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .modal-close-btn{
   position: absolute;
   top: 10px;

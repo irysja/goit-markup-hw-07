@@ -1,6 +1,4 @@
-@media screen  and (max-width: 767px) {
-
-
+@media screen  and (min-width: 480px) {
   .mobile-menu-new {
     position: fixed;
     width: 100%;
@@ -121,10 +119,8 @@
   .mobile-social-list {
     margin-top: 48px;
     display: flex;
-    /*justify-content: space-between;*/
     margin-left: 40px;
     gap: 56px;
-
   }
   .mobile-social-list-link {
     display: flex;
@@ -270,7 +266,7 @@
     display: flex;
     /*justify-content: space-between;*/
     margin-left: 40px;
-    gap: 56px;
+    gap: 0;
 
   }
   .mobile-social-list-link {
@@ -287,7 +283,7 @@
     margin-left: 0;
   }
 }
-@media screen  and (min-width: 480px) {
+@media screen  and (min-width: 767px) {
   .mobile-menu{
     display: none;
   }

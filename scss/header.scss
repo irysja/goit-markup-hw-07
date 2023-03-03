@@ -112,6 +112,7 @@ main {
 .contact-phone-number,
 .contact-emil {
   position: relative;
+  padding-left: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -154,6 +155,7 @@ main {
     border: none;
     padding: 0;
     line-height: 0;
+    padding: 24px 0 24px;
   }
 }
 
@@ -175,8 +177,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
 }
 @media screen and (min-width: 480px)  and (max-width: 767px){
@@ -193,8 +193,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
 }
 @media screen and (min-width: 767px) {

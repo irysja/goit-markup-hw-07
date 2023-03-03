@@ -1,6 +1,5 @@
 @media screen and (min-width: 479px) and (max-width: 767px){
   .hero-containe {
-   /* margin-inline: auto;*/
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/hero.jpg), url(../images/Dark-bg@2x.jpg) ;
 
   }
@@ -91,14 +90,10 @@
     margin-bottom: 24px;
     margin-top: 72px;
   }
-.logo-web  {
-  position: absolute;
-  margin-left: 70px;
-  /*display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px*/
-}
+  .logo-web  {
+    position: absolute;
+    margin-right: 0;
+  }
   .coment{
     padding-top: 16px;
   }
@@ -109,9 +104,6 @@
 }
   .footer-second{
     margin-left: 0;
-  }
-  .socials-list{
-    /*margin-right: 110px;*/
   }
   .modal-form-input-footer{
     display: flex;
@@ -361,7 +353,6 @@
     margin-bottom: 42px;
     width: unset;
     height: unset;
-   /* margin-left: 24px;*/
     gap: 16px;
   }
   .customers-list-item  {
@@ -386,11 +377,6 @@
   }
   .logo-web  {
     position: absolute;
-    margin-left: 35px;
-    /*display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px*/
   }
   .coment{
     padding-top: 16px;
@@ -398,18 +384,12 @@
   .socials-media {
     display: flex;
     flex-direction: column;
-    /*margin-right: 166px;*/
   }
   .footer-second{
     margin-left: 0;
   }
-  .socials-list{
-    /*margin-right: 110px;*/
-  }
   .modal-form-input-footer{
-    /*display: flex;*/
     margin-bottom: 24px;
-    /*width: 398px;*/
     height: 40px;
   }
   .modal-form-footer{

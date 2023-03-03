@@ -63,7 +63,6 @@
   gap: 23px;
 }
 .framese-icon-icon{
-  /*padding-top: 28px;*/
   display: flex;
   justify-content: center;
   width: 264px;
@@ -124,7 +123,6 @@
 }
 .commands {
   display: flex;
-  /*flex-wrap: wrap;*/
   gap: 11px;
 }
 .commands-1-card:not(:nth-child(3n)) {
@@ -390,11 +388,14 @@ img {
   justify-content: center;
   align-items: center;
 }
-.socials-list-icon,
-.icon {
+.socials-list-icon {
   fill: var(--primary-color-white);
 }
+/*.socials-list-icon,
 .icon {
+  fill: var(--primary-color-white);
+}*/
+/*.icon {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -404,7 +405,7 @@ img {
   fill: currentColor;
   background-color: #ffffff;
   fill:#808080;
-}
+}*/
 
 .socials-list-link:hover,
 .socials-list-link:focus,

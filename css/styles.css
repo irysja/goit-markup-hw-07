@@ -179,7 +179,6 @@ main {
   .mobile-menu-open {
     background-color: transparent;
     border: none;
-    padding: 0;
     line-height: 0;
     padding: 24px 0 24px;
   }
@@ -207,7 +206,6 @@ main {
     width: 428px;
     margin-left: auto;
     margin-right: auto;
-    /*min-width: 320px;*/
     max-width: 480px;
     padding-left: 15px;
     padding-right: 15px;
@@ -313,7 +311,6 @@ main {
 }
 
 .framese-icon-icon {
-  /*padding-top: 28px;*/
   display: flex;
   justify-content: center;
   width: 264px;
@@ -381,7 +378,6 @@ main {
 
 .commands {
   display: flex;
-  /*flex-wrap: wrap;*/
   gap: 11px;
 }
 
@@ -672,12 +668,15 @@ img {
   align-items: center;
 }
 
-.socials-list-icon,
-.icon {
+.socials-list-icon {
   fill: var(--primary-color-white);
 }
 
+/*.socials-list-icon,
 .icon {
+  fill: var(--primary-color-white);
+}*/
+/*.icon {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -686,9 +685,8 @@ img {
   background-color: white;
   fill: currentColor;
   background-color: #ffffff;
-  fill: #808080;
-}
-
+  fill:#808080;
+}*/
 .socials-list-link:hover,
 .socials-list-link:focus,
 .icon:hover,
@@ -1183,7 +1181,6 @@ footer {
   .mobile-social-list {
     margin-top: 48px;
     display: flex;
-    /*justify-content: space-between;*/
     margin-left: 40px;
     gap: 0;
   }
@@ -1484,7 +1481,6 @@ footer {
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .hero-containe {
-    /* margin-inline: auto;*/
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg), url(../images/Dark-bg@2x.jpg);
   }
   .hero {
@@ -1759,10 +1755,6 @@ footer {
     display: flex;
     align-items: center;
   }
-  /*.page-header-container {
-    display: flex;
-    justify-content: center;
-  }*/
   .page-header-container.contacts {
     display: flex;
     flex-direction: column;

@@ -1025,12 +1025,11 @@ footer {
     transition-property: background-color;
     transition-duration: 250ms;
   }
-  .mobile-contact-phone-number,
+  /*.mobile-contact-phone-number,*/
   .mobile-contact-emil {
     color: #434455;
   }
-  .mobile-contact-phone-number:hover,
-  .mobile-contact-emil:focus {
+  .mobile-contact-phone-number {
     color: var(--color-navy);
     font-weight: 700;
     font-size: 36px;
@@ -1046,7 +1045,6 @@ footer {
   .mobile-social-list {
     margin-top: 48px;
     display: flex;
-    margin-left: 40px;
     gap: 56px;
   }
   .mobile-social-list-link {
@@ -1061,6 +1059,7 @@ footer {
   }
   .contact-email {
     margin-left: 0;
+    margin-top: 40px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1160,12 +1159,11 @@ footer {
     transition-property: background-color;
     transition-duration: 250ms;
   }
-  .mobile-contact-phone-number,
+  /*.mobile-contact-phone-number,*/
   .mobile-contact-emil {
     color: #434455;
   }
-  .mobile-contact-phone-number:hover,
-  .mobile-contact-emil:focus {
+  .mobile-contact-phone-number {
     color: var(--color-navy);
     font-weight: 700;
     font-size: 36px;
@@ -1181,8 +1179,8 @@ footer {
   .mobile-social-list {
     margin-top: 48px;
     display: flex;
-    margin-left: 40px;
-    gap: 0;
+    /*margin-left: 40px;*/
+    gap: 56px;
   }
   .mobile-social-list-link {
     display: flex;
@@ -1196,6 +1194,7 @@ footer {
   }
   .contact-email {
     margin-left: 0;
+    margin-top: 40px;
   }
 }
 @media screen and (min-width: 767px) {
@@ -1293,8 +1292,11 @@ footer {
     margin-top: 72px;
   }
   .logo-web {
-    position: absolute;
-    margin-right: 0;
+    /*position: absolute;
+    margin-right: 0;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
   .coment {
     padding-top: 16px;
@@ -1767,6 +1769,11 @@ footer {
     line-height: 14px;
     letter-spacing: 0.04em;
     color: #434455;
+  }
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 108px;
+    text-align: center;
   }
   .hero-title {
     font-weight: 700;

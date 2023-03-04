@@ -97,12 +97,12 @@
     transition-property: background-color;
     transition-duration: 250ms;
   }
-  .mobile-contact-phone-number,
+  /*.mobile-contact-phone-number,*/
   .mobile-contact-emil {
     color: #434455;
   }
-  .mobile-contact-phone-number:hover,
-  .mobile-contact-emil:focus {
+  .mobile-contact-phone-number/*:hover,
+  .mobile-contact-emil:focus */{
     color: var(--color-navy);
     font-weight: 700;
     font-size: 36px;
@@ -118,7 +118,6 @@
   .mobile-social-list {
     margin-top: 48px;
     display: flex;
-    margin-left: 40px;
     gap: 56px;
   }
   .mobile-social-list-link {
@@ -133,6 +132,7 @@
   }
   .contact-email {
     margin-left: 0;
+    margin-top: 40px;
   }
 }
 @media screen  and (min-width: 768px) {
@@ -241,12 +241,12 @@
     transition-property: background-color;
     transition-duration: 250ms;
   }
-  .mobile-contact-phone-number,
+  /*.mobile-contact-phone-number,*/
   .mobile-contact-emil {
     color: #434455;
   }
-  .mobile-contact-phone-number:hover,
-  .mobile-contact-emil:focus {
+  .mobile-contact-phone-number/*:hover,
+  .mobile-contact-emil:focus*/ {
     color: var(--color-navy);
     font-weight: 700;
     font-size: 36px;
@@ -262,8 +262,8 @@
   .mobile-social-list {
     margin-top: 48px;
     display: flex;
-    margin-left: 40px;
-    gap: 0;
+    /*margin-left: 40px;*/
+    gap: 56px;
 
   }
   .mobile-social-list-link {
@@ -278,6 +278,7 @@
   }
   .contact-email {
     margin-left: 0;
+    margin-top: 40px;
   }
 }
 @media screen  and (min-width: 767px) {

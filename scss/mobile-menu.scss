@@ -231,7 +231,7 @@
     color: var(--primary-color-dark-gray);
   }
   .mobile-menu-contacts {
-    margin-top: calc(47vh - 35px);
+    margin-top: calc(33vh - 35px);
     display: block;
     font-weight: 500;
     font-size: 20px;
@@ -262,7 +262,7 @@
   .mobile-social-list {
     margin-top: 48px;
     display: flex;
-    /*margin-left: 40px;*/
+    flex-wrap: wrap;
     gap: 56px;
 
   }

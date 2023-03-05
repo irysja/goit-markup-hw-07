@@ -75,11 +75,14 @@
     gap: 72px 24px;
   }
   .footer {
-    display: flex;
-    flex-direction: row;
     flex-flow: wrap;
     gap: 72px 24px;
-    justify-content: center;
+  }
+  .footer-first {
+    padding-left: 72px;
+  }
+  .modal-footer {
+    margin-left: 35px;
   }
   .socials-media {
     margin-right: 0;

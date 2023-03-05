@@ -1149,7 +1149,7 @@ footer {
     color: var(--primary-color-dark-gray);
   }
   .mobile-menu-contacts {
-    margin-top: calc(47vh - 35px);
+    margin-top: calc(33vh - 35px);
     display: block;
     font-weight: 500;
     font-size: 20px;
@@ -1179,7 +1179,7 @@ footer {
   .mobile-social-list {
     margin-top: 48px;
     display: flex;
-    /*margin-left: 40px;*/
+    flex-wrap: wrap;
     gap: 56px;
   }
   .mobile-social-list-link {
@@ -1580,7 +1580,7 @@ footer {
   }
   .modal-form-input-footer {
     margin-bottom: 24px;
-    height: 40px;
+    width: 100%;
   }
   .modal-form-footer {
     text-align: center;
@@ -1825,11 +1825,14 @@ footer {
     gap: 72px 24px;
   }
   .footer {
-    display: flex;
-    flex-direction: row;
     flex-flow: wrap;
     gap: 72px 24px;
-    justify-content: center;
+  }
+  .footer-first {
+    padding-left: 72px;
+  }
+  .modal-footer {
+    margin-left: 35px;
   }
   .socials-media {
     margin-right: 0;
